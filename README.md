@@ -124,12 +124,16 @@ En mi aplicación lo utilicé para llevar el control de los votos de cada tecnol
 
 **Repositorio:**
 
+https://github.com/Melody-Mendoza/t3_act5_react
+
 
 ---
 
 ## e) Enlace del proyecto desplegado en GitHub Pages
 
 **GitHub Pages:**
+
+https://melody-mendoza.github.io/t3_act5_react/
 
 ---
 
