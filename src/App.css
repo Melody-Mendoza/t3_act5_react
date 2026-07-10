@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+.contenedor {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+
+.cabecera-principal {
+  background: linear-gradient(135deg, #4A55A2, #7895CB);
+  color: white;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+
+.cabecera-principal h1 {
+  margin: 0 0 8px 0;
+  font-size: 1.8rem;
+}
+
+.cabecera-principal p {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 1rem;
+}
+
+.cuadricula {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.tarjeta {
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border: 1px solid #e1e4e8;
+}
+
+.info h3 {
+  margin: 0 0 8px 0;
+  color: #2c3e50;
+}
+
+.etiqueta {
+  background-color: #e8ebf2;
+  color: #4A55A2;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.votacion {
+  text-align: right;
+}
+
+.votacion p {
+  margin: 0 0 8px 0;
+  font-weight: bold;
+  color: #555;
+}
+
+.votacion button {
+  background-color: #4A55A2;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-weight: bold;
+}
+
+.votacion button:hover {
+  background-color: #3b4480;
+}
+
+.pie-pagina {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 0.9rem;
+  color: #666;
+}

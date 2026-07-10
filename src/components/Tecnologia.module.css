@@ -1,0 +1,49 @@
+.tarjeta {
+  background-color: #B0C4DE;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border: 1px solid #e1e4e8;
+}
+
+.info h3 {
+  margin: 0 0 8px 0;
+  color: #2c3e50;
+}
+
+.etiqueta {
+  background-color: #e8ebf2;
+  color: #4A55A2;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.votacion {
+  text-align: right;
+}
+
+.votacion p {
+  margin: 0 0 8px 0;
+  font-weight: bold;
+  color: #555;
+}
+
+.votacion button {
+  background-color: #4A55A2;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-weight: bold;
+}
+
+.votacion button:hover {
+  background-color: #3b4480;
+}

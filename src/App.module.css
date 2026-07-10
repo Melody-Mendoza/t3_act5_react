@@ -1,0 +1,11 @@
+.contenedor {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.cuadricula {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
